@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="containera">
+    <div class="row container">
+
+      <div type="button" id="green" class="game-btn green">
+
+      </div>
+
+      <div type="button" id="red" class="game-btn red">
+
+      </div>
+    </div>
+
+    <div class="row container">
+
+      <div type="button" id="yellow" class="game-btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="game-btn blue">
+
+      </div>
+
+    </div>
+
+    <div class="form-check form-switch d-flex justify-content-center align-items-center">
+      <input class="form-check-input me-2" type="checkbox" role="switch" id="ShowFullSequenceSwitch">
+      <label class="form-check-label" for="ShowFullSequenceSwitch">
+        Show full sequence each time
+      </label>
+    </div>
+
+  </div>
+  <script src="js/jquery-4.0.0.min.js" charset="utf-8"></script>
+  <script src="js/game.js" charset="utf-8"></script>
+</body>
+
+</html>
